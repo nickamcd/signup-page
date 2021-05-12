@@ -1,0 +1,49 @@
+body {
+  background-color: #ebeef0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0072cf;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 25px;
+}
+
+button {
+  color: white;
+  font-size: 14px;
+  background-color: #0072cf;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header button {
+  margin: 5px;
+  padding: 0 25px;
+}
+
+section {
+  background-color: red;
+}
+
+footer {
+  background-color: teal;
+}
+
+#sign-in-prompt {
+  margin-top: -5px;
+  margin-right: 5px;
+  text-align: right;
+  font-size: 12px;
+  line-height: 1;
+}
