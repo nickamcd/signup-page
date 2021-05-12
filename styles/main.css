@@ -29,7 +29,7 @@ button {
 
 header button {
   margin: 5px;
-  padding: 0 25px;
+  padding: 7px 25px;
 }
 
 section {
@@ -40,10 +40,46 @@ footer {
   background-color: teal;
 }
 
+input {
+ width: 80%; 
+ padding: 10px;
+}
+
+.form-header {
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.form-header h2 {
+  font-size: 24px;
+}
+
+.form-header p {
+  padding-top: 20px;
+}
+
 #sign-in-prompt {
-  margin-top: -5px;
+  justify-content: center;
+  margin-top: -10px;
   margin-right: 5px;
   text-align: right;
   font-size: 12px;
   line-height: 1;
+}
+
+#form-container {
+  margin: auto;
+  color: #555;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #aaa;
+  width: 400px;
+}
+
+#sign-up-form label {
+  float: left;
+  margin: 10px;
+  margin-left: 25px;
+  font-size: 14px;
 }
