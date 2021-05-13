@@ -37,16 +37,38 @@ section {
   background-color: red;
 }
 
-footer {
-  background-color: teal;
+input {
+  width: 80%; 
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
 }
 
-input {
- width: 80%; 
- padding: 10px;
- border-radius: 5px;
- border: 1px solid #ccc;
- margin-bottom: 30px;
+footer {
+  margin-top: 25px;
+  text-align: center;
+}
+
+footer ul {
+  margin-bottom: -5px;
+}
+
+footer li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 15px;
+}
+
+footer a {
+  font-size: 12px;
+  color: #555;
+}
+
+footer p {
+  margin-top: -3px;
+  color: #555;
+  font-size: 12px;
 }
 
 .form-header {
@@ -133,6 +155,7 @@ input {
 }
 
 #form-container em {
+  margin: 10px;
   font-size: 12px;
   line-height: 1;
 }
@@ -152,7 +175,7 @@ input {
 }
 
 #form-footer {
-  margin-top: 15px;
+  margin-top: 25px;
   color: #8f8f8f;
   padding: 25px;
   background-color: #ebeef0;
