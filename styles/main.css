@@ -59,6 +59,11 @@ input {
   padding-top: 20px;
 }
 
+.logo {
+  height: 25px;
+  margin: 0 5px;
+}
+
 #sign-in-prompt {
   justify-content: center;
   margin-top: -10px;
@@ -68,13 +73,33 @@ input {
   line-height: 1;
 }
 
+#brand-container {
+  text-align: center;
+  padding: 10px;
+}
+
+#intuit-brand {
+  width: 120px;
+}
+
+#logo-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#logo-container span {
+  color: #666;
+  display: inline-flex;
+  align-items: center;
+}
+
 #form-container {
   margin: auto;
   color: #555;
   text-align: center;
   background-color: white;
-  border: 1px solid #aaa;
-  width: 400px;
+  border: 1px solid #ccc;
+  width: 375px;
 }
 
 #sign-up-form label {
