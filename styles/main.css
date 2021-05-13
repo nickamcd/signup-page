@@ -13,6 +13,7 @@ a:hover {
 }
 
 header {
+  color: #666;
   display: flex;
   justify-content: flex-end;
   padding: 0 25px;
@@ -43,6 +44,9 @@ footer {
 input {
  width: 80%; 
  padding: 10px;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+ margin-bottom: 30px;
 }
 
 .form-header {
@@ -102,9 +106,55 @@ input {
   width: 375px;
 }
 
+#form-header {
+  padding-top: 10px;
+}
+
+#form-header h2 {
+  font-weight: 10;
+}
+
+#form-header h5 {
+  font-weight: 5;
+  margin-bottom: -1px;
+}
+
+#form-header a {
+  font-weight: 5;
+  font-size: 14px;
+}
+
+#form-container button {
+  margin: 5px;
+  padding: 7px;
+  width: 87%;
+  border: none;
+  margin: 15px;
+}
+
+#form-container em {
+  font-size: 12px;
+  line-height: 1;
+}
+
 #sign-up-form label {
   float: left;
   margin: 10px;
   margin-left: 25px;
   font-size: 14px;
+}
+
+#sign-up-form p {
+  margin-left: 25px;
+  margin-top: -25px;
+  text-align: left;
+  font-size: 10px;
+}
+
+#form-footer {
+  margin-top: 15px;
+  color: #8f8f8f;
+  padding: 25px;
+  background-color: #ebeef0;
+  font-size: 10px;
 }

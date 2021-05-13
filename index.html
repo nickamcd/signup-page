@@ -36,9 +36,11 @@
       </span>
     </div>
     <div id="form-container">
-      <h2>Create an Intuit account</h2>
-      <h5>One account for everything Intuit, including Mint.</h5>
-      <a href="https://accounts-help.intuit.com/app/intuit/1995107">Learn more</a>
+      <div id="form-header">
+        <h2>Create an Intuit account</h2>
+        <h5>One account for everything Intuit, including Mint.</h5>
+        <a href="https://accounts-help.intuit.com/app/intuit/1995107">Learn more</a>
+      </div>
 
       <form id="sign-up-form" action="/sign_up" method="post">
         <label for="email">Email address</label>
@@ -48,6 +50,7 @@
 
         <label for="phone">Phone (recommended)</label>
         <input type="tel" name="phone" id="phone">
+        <p>Standard call, messaging or data reates may apply.</p>
 
         <br>
         
@@ -56,12 +59,18 @@
 
         <br>
         <button class="sign-up-button">
-          <i class="fa fa-lock"> Create Account</i>
+          <i class="fa fa-lock"> <strong>Create Account</strong></i>
         </button>
-        <p>By selecting Create Account, you agree to our <a href="https://mint.intuit.com/terms">Terms</a> and
+
+        <br>
+
+        <em>By selecting Create Account, you agree to our <a href="https://mint.intuit.com/terms">Terms</a> and
           have read and acknowledge our <a href="https://www.intuit.com/privacy/statement/">Global Privacy Statement</a>
-        </p>
+        </em>
       </form>
+      <div id="form-footer">
+        Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en">Privacy Policy</a> and <a href="https://policies.google.com/terms?hl=en">Terms of Use.</a>
+      </div>
     </div>
   </main>
   <footer>
